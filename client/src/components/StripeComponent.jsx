@@ -11,7 +11,7 @@ const stripeComponent = () => {
       token: token
     };
 
-    const url = "to be continued";
+    const url = "http://localhost:5000/";
     axios
       .post(`${url}`, body)
       .then(response => {
