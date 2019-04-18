@@ -32,7 +32,7 @@ const stripeComponent = () => {
       panelLabel="Go Premium" //Submit button in modal
       amount={999} //Amount in cents $9.99
       token={onToken}
-      stripeKey={publishableKey}
+      stripeKey={publisherKey}
       image="https://www.vidhub.co" //Pop-in header image
       billingAddress={false}
     />
